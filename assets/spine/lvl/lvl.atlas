@@ -1,0 +1,13 @@
+lvl.png
+size:512,512
+filter:Linear,Linear
+pma:true
+scale:0.8
+Group
+bounds:0,183,55,293
+Group (1)
+bounds:0,0,74,184
+Vector
+bounds:55,194,26,282
+Vector (1)
+bounds:74,76,55,118

@@ -1,0 +1,45 @@
+{
+  "name": "runic",
+  "version": "0.0.1",
+  "description": "pixi game",
+  "main": "src/index.js",
+  "scripts": {
+    "release": "webpack --mode production --config webpack.config.prod.js",
+    "build": "webpack --mode development --config webpack.config.js",
+    "start": "webpack-dev-server --config  webpack.config.js",
+    "test": "node --test --watch",
+    "export": "node ./scripts/export.js",
+    "create-components": "node ./scripts/export-components.js"
+  },
+  "dependencies": {
+    "@esotericsoftware/spine-pixi-v7": "^4.2.71",
+    "@pixi/layers": "^2.1.0",
+    "@pixi/ui": "^1.2.0",
+    "axios": "^1.2.2",
+    "fontfaceobserver": "^2.3.0",
+    "gsap": "^3.10.4",
+    "howler": "^2.2.3",
+    "pixi-filters": "^5.3.0",
+    "pixi-stats": "^4.1.1",
+    "pixi.js": "^7.4.2",
+    "signals": "^1.0.0",
+    "typed-signals": "^3.0.0",
+    "typescript": "^5.8.3",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/plugin-proposal-optional-chaining-assign": "^7.24.6",
+    "@babel/preset-env": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "dotenv": "^16.4.7",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
