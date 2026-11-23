@@ -44,8 +44,8 @@ export const manifest = {
                 {"alias": "payLineData", "src": "./assets/spine/PayLine/Symbols.json"},
                 {"alias": "payLineAtlas", "src": "./assets/spine/PayLine/Symbols.atlas"},
 
-                {"alias": "PopupData", "src": "./assets/spine/Popup/Popup.json"},
-                {"alias": "PopupAtlas", "src": "./assets/spine/Popup/Popup.atlas"},
+                {"alias": "PopupData", "src": "./assets/spine/PopUp/Popup.json"},
+                {"alias": "PopupAtlas", "src": "./assets/spine/PopUp/Popup.atlas"},
 
                 {"alias": "symbolsData", "src": "./assets/spine/Symbols/Symbols.json"},
                 {"alias": "symbolsAtlas", "src": "./assets/spine/Symbols/Symbols.atlas"},
